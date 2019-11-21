@@ -1,0 +1,41 @@
+.header-container{
+                   margin-top:0px;
+                   display:flex;
+                   align-items: center;
+                   justify-content: space-between;
+                   height:48px;
+                   background-color: green;
+                 }
+.row1-container,.row2-container{
+                 width:100%
+                 height:300px;
+                 display:flex;
+                 align-items: center;
+                 justify-content: space-around;
+                 padding-top: 10px;
+               }
+.First,.Second,.Third,.Fourth{
+                              width:23%;
+                              height:200px;
+                              border:2px solid black;
+                              border-radius: 5px;
+                              background-color:red;
+                              text-align: center;
+                              }
+.Fifth,.Sixth{
+              width:47%;
+              height:250px;
+              border:2px solid black;
+              border-radius: 5px;
+              background-color:red;
+              text-align: center;
+             }
+footer{
+       background-color: black;
+       color:yellow;
+       text-align:center;
+       position: fixed;
+       height:48px;
+       width:100%;
+       bottom:0px;
+      }
